@@ -1,0 +1,14 @@
+﻿main.obj : error LNK2019: unresolved external symbol _cbreak referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _curs_set referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _endwin referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _initscr referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _keypad referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _printw referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _timeout referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _wgetch referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _getmaxx referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _getmaxy referenced in function _main
+main.obj : error LNK2001: unresolved external symbol _stdscr
+snake.obj : error LNK2019: unresolved external symbol _mvaddch referenced in function "void __cdecl Draw(struct Snake *)" (?Draw@@YAXPAUSnake@@@Z)
+D:\Snake\Snake\lib\pdcurses.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Snake\Debug\Snake.exe : fatal error LNK1120: 12 unresolved externals
